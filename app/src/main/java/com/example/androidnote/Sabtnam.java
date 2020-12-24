@@ -79,6 +79,7 @@ public class Sabtnam extends AppCompatActivity {
                         data.put("password", pass);
                         mrootref.child("User").child(mAuth.getCurrentUser().getUid()).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
+
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     ProgressDialog.dismiss();
