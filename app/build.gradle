@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.androidnote"
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -41,6 +41,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:17.1.2'
     implementation 'com.google.firebase:firebase-storage:16.0.4'
     implementation 'com.google.firebase:firebase-analytics-ktx'
+
 
     //noinspection GradleCompatible
 
